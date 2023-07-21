@@ -12,7 +12,6 @@ st.title('Klasifikasi Penyakit Autisme')
 
 
 st.markdown('#### Pertanyaan Ciri-Ciri Perilaku')
-st.info("Jawab 0 jika 'Tidak' dan 1 jika 'Iya'")
 A1_Score_input = st.selectbox('Apakah Anda sering mendengarkan suara-suara kecil yang orang lain tidak bisa mendengarnya?', ['Iya', 'Tidak'])
 A1_Score = 1 if A1_Score_input == 'Iya' else 0
 
